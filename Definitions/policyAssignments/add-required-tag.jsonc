@@ -7,7 +7,7 @@
         "description": "Ensures that a specified tag is added to all resource groups."
     },
     "definitionEntry": {
-        "policyId": "7ce92201-8036-4d55-938e-0dce0a5bc475",
+        "policyName": "7ce92201-8036-4d55-938e-0dce0a5bc475",
         "displayName": "Require Tag on Resource Group with dynamic notScope"
     },
     "parameters": {
