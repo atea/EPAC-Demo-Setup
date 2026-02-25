@@ -42,7 +42,7 @@ stages:
     jobs:
       - deployment: DeployPolicy
         displayName: "Deploy Policy Changes"
-        environment: PAC-POLICY
+        environment: EPAC-POLICY
         condition: and(not(failed()), not(canceled()), eq(variables.localDeployPolicyChanges, 'yes'))
         strategy:
           runOnce:
@@ -55,7 +55,7 @@ stages:
       - deployment: DeployRoles
         displayName: "Deploy Role Changes"
         dependsOn: DeployPolicy
-        environment: PAC-POLICY
+        environment: EPAC-POLICY
         condition: and(not(failed()), not(canceled()), eq(variables.localDeployRoleChanges, 'yes'))
         strategy:
           runOnce:

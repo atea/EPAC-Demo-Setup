@@ -42,7 +42,7 @@ stages:
     jobs:
       - deployment: DeployPolicy
         displayName: "Deploy Policy Changes"
-        environment: PAC-POLICY
+        environment: EPAC-POLICY
         condition: and(not(failed()), not(canceled()), eq(variables.localDeployPolicyChanges, 'yes'))
         strategy:
           runOnce:
