@@ -1,0 +1,14 @@
+{
+    "exemptions": [
+        {
+            "name": "Allowed Locations",
+            "displayName": "Exemption of allowed locations",
+            "description": "Connectivity Management group need global resources",
+            "exemptionCategory": "Waiver",
+            "scopes": [
+                "/providers/Microsoft.Management/managementGroups/EPAC-Fabrikam-Connectivity"
+            ],
+            "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/EPAC-Fabrikam/providers/Microsoft.Authorization/policySetDefinitions/e14e5d7c-9551-4ae2-b8fa-b5d6b9b3c677"
+        }
+    ]
+}
