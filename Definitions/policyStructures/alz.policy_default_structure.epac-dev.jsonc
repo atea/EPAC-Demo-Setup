@@ -1,0 +1,282 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Azure/enterprise-azure-policy-as-code/main/Schemas/policy-structure-schema.json",
+  "managementGroupNameMappings": {
+    "alz": {
+      "management_group_function": "Azure Landing Zones",
+      "value": "/providers/Microsoft.Management/managementGroups/alz"
+    },
+    "platform": {
+      "management_group_function": "Platform",
+      "value": "/providers/Microsoft.Management/managementGroups/platform"
+    },
+    "landingzones": {
+      "management_group_function": "Landing zones",
+      "value": "/providers/Microsoft.Management/managementGroups/landingzones"
+    },
+    "corp": {
+      "management_group_function": "Corp",
+      "value": "/providers/Microsoft.Management/managementGroups/corp"
+    },
+    "online": {
+      "management_group_function": "Online",
+      "value": "/providers/Microsoft.Management/managementGroups/online"
+    },
+    "sandbox": {
+      "management_group_function": "Sandbox",
+      "value": "/providers/Microsoft.Management/managementGroups/sandbox"
+    },
+    "security": {
+      "management_group_function": "Security",
+      "value": "/providers/Microsoft.Management/managementGroups/security"
+    },
+    "management": {
+      "management_group_function": "Management",
+      "value": "/providers/Microsoft.Management/managementGroups/management"
+    },
+    "connectivity": {
+      "management_group_function": "Connectivity",
+      "value": "/providers/Microsoft.Management/managementGroups/connectivity"
+    },
+    "identity": {
+      "management_group_function": "Identity",
+      "value": "/providers/Microsoft.Management/managementGroups/identity"
+    },
+    "decommissioned": {
+      "management_group_function": "Decommissioned",
+      "value": "/providers/Microsoft.Management/managementGroups/decommissioned"
+    }
+  },
+  "enforcementMode": "Default",
+  "defaultParameterValues": {
+    "private_dns_zone_subscription_id": [
+      {
+        "policy_assignment_name": "Deploy-Private-DNS-Zones",
+        "parameters": {
+          "parameter_name": "dnsZoneSubscriptionId",
+          "value": null
+        },
+        "description": "The subscription id that hosts the private link DNS zones."
+      }
+    ],
+    "private_dns_zone_resource_group_name": [
+      {
+        "policy_assignment_name": "Deploy-Private-DNS-Zones",
+        "parameters": {
+          "parameter_name": "dnsZoneResourceGroupName",
+          "value": null
+        },
+        "description": "The resource group name that hosts the private link DNS zones."
+      }
+    ],
+    "private_dns_zone_region": [
+      {
+        "policy_assignment_name": "Deploy-Private-DNS-Zones",
+        "parameters": {
+          "parameter_name": "dnsZoneRegion",
+          "value": null
+        },
+        "description": "The region short name (e.g. `westus`) that should be used for the region specific private link DNS zones."
+      }
+    ],
+    "ama_user_assigned_managed_identity_id": [
+      {
+        "policy_assignment_name": [
+          "Deploy-VM-ChangeTrack",
+          "Deploy-VMSS-ChangeTrack",
+          "Deploy-VM-Monitoring",
+          "Deploy-VMSS-Monitoring",
+          "Deploy-MDFC-DefSQL-AMA"
+        ],
+        "parameters": {
+          "parameter_name": "userAssignedIdentityResourceId",
+          "value": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/placeholder/providers/Microsoft.ManagedIdentity/userAssignedIdentities/placeholder"
+        },
+        "description": "The user assigned managed identity id that should be used for the AMA deployment."
+      }
+    ],
+    "ama_user_assigned_managed_identity_name": [
+      {
+        "policy_assignment_name": "DenyAction-DeleteUAMIAMA",
+        "parameters": {
+          "parameter_name": "resourceName",
+          "value": "defaultString3"
+        },
+        "description": "The user assigned managed identity name that is used for the deny action policy to prevent the accidental deletion of the AMA identity."
+      }
+    ],
+    "ama_vm_insights_data_collection_rule_id": [
+      {
+        "policy_assignment_name": [
+          "Deploy-VM-Monitoring",
+          "Deploy-VMSS-Monitoring",
+          "Deploy-vmHybr-Monitoring"
+        ],
+        "parameters": {
+          "parameter_name": "dcrResourceId",
+          "value": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/placeholder/providers/Microsoft.Insights/dataCollectionRules/placeholder"
+        },
+        "description": "The data collection rule id that should be used for the VM Insights deployment."
+      }
+    ],
+    "ama_mdfc_sql_data_collection_rule_id": [
+      {
+        "policy_assignment_name": "Deploy-MDFC-DefSQL-AMA",
+        "parameters": {
+          "parameter_name": "dcrResourceId",
+          "value": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/placeholder/providers/Microsoft.Insights/dataCollectionRules/placeholder"
+        },
+        "description": "The data collection rule id that should be used for the SQL MDFC deployment."
+      }
+    ],
+    "ama_change_tracking_data_collection_rule_id": [
+      {
+        "policy_assignment_name": [
+          "Deploy-VM-ChangeTrack",
+          "Deploy-vmArc-ChangeTrack",
+          "Deploy-VMSS-ChangeTrack"
+        ],
+        "parameters": {
+          "parameter_name": "dcrResourceId",
+          "value": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/placeholder/providers/Microsoft.Insights/dataCollectionRules/placeholder"
+        },
+        "description": "The data collection rule id that should be used for the change tracking deployment."
+      }
+    ],
+    "ddos_protection_plan_id": [
+      {
+        "policy_assignment_name": "Enable-DDoS-VNET",
+        "parameters": {
+          "parameter_name": "ddosPlan",
+          "value": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/placeholder/providers/Microsoft.Network/ddosProtectionPlans/placeholder"
+        },
+        "description": "The DDoS protection plan id that should be used for the DDoS protection plan deployment. If this is invalid or you do not use DDoS protection, make sure to change the enforcement mode of the Enable-DDoS-VNET policy to 'DoNotEnforce'."
+      }
+    ],
+    "log_analytics_workspace_id_0": [
+      {
+        "policy_assignment_name": [
+          "Deploy-AzActivity-Log",
+          "Deploy-Diag-LogsCat",
+          "Deploy-MDFC-Config-H224"
+        ],
+        "parameters": {
+          "parameter_name": "logAnalytics",
+          "value": "/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/placeholder/providers/Microsoft.OperationalInsights/workspaces/placeholder-la"
+        },
+        "description": "The Log Analytics workspace id that should be used for centralized log collection."
+      }
+    ],
+    "log_analytics_workspace_id_1": [
+      {
+        "policy_assignment_name": "Deploy-AzSqlDb-Auditing",
+        "parameters": {
+          "parameter_name": "logAnalyticsWorkspaceId",
+          "value": "/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/placeholder/providers/Microsoft.OperationalInsights/workspaces/placeholder-la"
+        },
+        "description": "The Log Analytics workspace id that should be used for centralized log collection."
+      }
+    ],
+    "log_analytics_workspace_id_2": [
+      {
+        "policy_assignment_name": "Deploy-MDFC-DefSQL-AMA",
+        "parameters": {
+          "parameter_name": "userWorkspaceResourceId",
+          "value": "/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/placeholder/providers/Microsoft.OperationalInsights/workspaces/placeholder-la"
+        },
+        "description": "The Log Analytics workspace id that should be used for centralized log collection."
+      }
+    ],
+    "ama_mdfc_sql_workspace_id": [
+      {
+        "policy_assignment_name": "Deploy-MDFC-DefSQL-AMA",
+        "parameters": {
+          "parameter_name": "userWorkspaceId",
+          "value": null
+        },
+        "description": "Workspace Id of the Log Analytics workspace destination for the Data Collection Rule."
+      }
+    ],
+    "ama_mdfc_sql_workspace_region": [
+      {
+        "policy_assignment_name": "Deploy-MDFC-DefSQL-AMA",
+        "parameters": {
+          "parameter_name": "workspaceRegion",
+          "value": "northeurope"
+        },
+        "description": "The region short name (e.g. westus) that should be used for the Log Analytics workspace for the SQL MDFC deployment."
+      }
+    ],
+    "mdfc_email_security_contact": [
+      {
+        "policy_assignment_name": "Deploy-MDFC-Config-H224",
+        "parameters": {
+          "parameter_name": "emailSecurityContact",
+          "value": "security_contact@replace_me"
+        },
+        "description": "Email address for Microsoft Defender for Cloud alerts."
+      }
+    ],
+    "mdfc_export_resource_group_name": [
+      {
+        "policy_assignment_name": "Deploy-MDFC-Config-H224",
+        "parameters": {
+          "parameter_name": "ascExportResourceGroupName",
+          "value": "rg-mdfc-export-prod"
+        },
+        "description": "Resource Group name for the export to Log Analytics workspace configuration"
+      }
+    ],
+    "mdfc_export_resource_group_location": [
+      {
+        "policy_assignment_name": "Deploy-MDFC-Config-H224",
+        "parameters": {
+          "parameter_name": "ascExportResourceGroupLocation",
+          "value": "${default_location}"
+        },
+        "description": "Resource Group location for the export to Log Analytics workspace configuration"
+      }
+    ]
+  },
+  "enforceGuardrails": {
+    "deployments": [
+      {
+        "scope": [
+          "/providers/Microsoft.Management/managementGroups/landingzones",
+          "/providers/Microsoft.Management/managementGroups/platform"
+        ],
+        "policy_set_names": [
+          "Enforce-Encryption-CMK_20250218",
+          "Enforce-Guardrails-APIM",
+          "Enforce-Guardrails-AppServices",
+          "Enforce-Guardrails-Automation",
+          "Enforce-Guardrails-BotService",
+          "Enforce-Guardrails-CognitiveServices",
+          "Enforce-Guardrails-Compute",
+          "Enforce-Guardrails-ContainerApps",
+          "Enforce-Guardrails-ContainerInstance",
+          "Enforce-Guardrails-ContainerRegistry",
+          "Enforce-Guardrails-CosmosDb",
+          "Enforce-Guardrails-DataExplorer",
+          "Enforce-Guardrails-DataFactory",
+          "Enforce-Guardrails-EventGrid",
+          "Enforce-Guardrails-EventHub",
+          "Enforce-Guardrails-KeyVault_20260203",
+          "Enforce-Guardrails-KeyVault-Sup",
+          "Enforce-Guardrails-KeyVault",
+          "Enforce-Guardrails-Kubernetes",
+          "Enforce-Guardrails-MachineLearning",
+          "Enforce-Guardrails-MySQL",
+          "Enforce-Guardrails-Network_20250326",
+          "Enforce-Guardrails-Network",
+          "Enforce-Guardrails-OpenAI",
+          "Enforce-Guardrails-PostgreSQL",
+          "Enforce-Guardrails-ServiceBus",
+          "Enforce-Guardrails-SQL",
+          "Enforce-Guardrails-Storage",
+          "Enforce-Guardrails-Synapse",
+          "Enforce-Guardrails-VirtualDesktop"
+        ]
+      }
+    ]
+  }
+}

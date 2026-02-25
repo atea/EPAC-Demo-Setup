@@ -1,0 +1,216 @@
+2026-02-22_06:26:12 -- Log File Created
+2026-02-22_06:26:12 -- Stage Initiated: Enterprise Policy as Code (EPAC) Hydration Kit
+2026-02-22_06:26:22 -- Stage Initiated: Beginning Preliminary Tests
+2026-02-22_06:26:22 -- Summary of Beginning Preliminary Tests
+2026-02-22_06:26:22 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging 13.107.42.14
+2026-02-22_06:26:24 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_06:26:24 -- Internet Connectivity Validation Test: Passed 13.107.42.14 ping test successful
+2026-02-22_06:26:25 -- Test Result Data: internetConnection -- Passed
+2026-02-22_06:26:25 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging www.github.com
+2026-02-22_06:26:27 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_06:26:27 -- Internet Connectivity Validation Test: Passed www.github.com ping test successful
+2026-02-22_06:26:27 -- Test Result Data: githubConnection -- Passed
+2026-02-22_06:26:27 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging management.azure.com
+2026-02-22_06:26:29 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_06:26:29 -- Internet Connectivity Validation Test: Passed management.azure.com ping test successful
+2026-02-22_06:26:29 -- Test Result Data: azureManagement -- Passed
+2026-02-22_06:26:29 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging login.microsoftonline.com
+2026-02-22_06:26:31 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_06:26:31 -- Internet Connectivity Validation Test: Passed login.microsoftonline.com ping test successful
+2026-02-22_06:26:31 -- Test Result Data: azureAuthentication -- Passed
+2026-02-22_06:26:31 -- Stage Initiated: Summarizing Test Results
+2026-02-22_06:26:31 -- Summary: internetConnection ------------------------------------------------------------------------------------------------------------------------------------------------------------ Passed
+2026-02-22_06:26:31 -- Summary: githubConnection -------------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_06:26:31 -- Summary: azureManagement --------------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_06:26:31 -- Summary: azureAuthentication ----------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_06:26:31 -- Summary: gitInstall -------------------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_06:26:41 -- Stage Initiated: Beginning Data Gathering
+2026-02-22_06:29:24 -- Overwriting Answer File at /Users/erlend.rushfeldt/Documents/GitHub/EPAC-Demos/Output/HydrationAnswer/AnswerFile.json
+2026-02-22_06:29:24 -- Stage Initiated: Enterprise Policy as Code (EPAC) Hydration Kit
+2026-02-22_06:29:34 -- Stage Initiated: Beginning Preliminary Tests
+2026-02-22_06:29:34 -- Summary of Beginning Preliminary Tests
+2026-02-22_06:29:34 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging 13.107.42.14
+2026-02-22_06:29:36 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_06:29:36 -- Internet Connectivity Validation Test: Passed 13.107.42.14 ping test successful
+2026-02-22_06:29:36 -- Test Result Data: internetConnection -- Passed
+2026-02-22_06:29:36 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging www.github.com
+2026-02-22_06:29:38 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_06:29:38 -- Internet Connectivity Validation Test: Passed www.github.com ping test successful
+2026-02-22_06:29:38 -- Test Result Data: githubConnection -- Passed
+2026-02-22_06:29:38 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging management.azure.com
+2026-02-22_06:29:40 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_06:29:40 -- Internet Connectivity Validation Test: Passed management.azure.com ping test successful
+2026-02-22_06:29:40 -- Test Result Data: azureManagement -- Passed
+2026-02-22_06:29:40 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging login.microsoftonline.com
+2026-02-22_06:29:42 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_06:29:42 -- Internet Connectivity Validation Test: Passed login.microsoftonline.com ping test successful
+2026-02-22_06:29:42 -- Test Result Data: azureAuthentication -- Passed
+2026-02-22_06:29:42 -- Stage Initiated: Summarizing Test Results
+2026-02-22_06:29:42 -- Summary: internetConnection ------------------------------------------------------------------------------------------------------------------------------------------------------------ Passed
+2026-02-22_06:29:42 -- Summary: githubConnection -------------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_06:29:42 -- Summary: azureManagement --------------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_06:29:42 -- Summary: azureAuthentication ----------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_06:29:42 -- Summary: gitInstall -------------------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_06:29:52 -- Stage Initiated: Beginning Data Gathering
+2026-02-22_06:30:30 -- Overwriting Answer File at /Users/erlend.rushfeldt/Documents/GitHub/EPAC-Demos/Output/HydrationAnswer/AnswerFile.json
+2026-02-22_06:30:30 -- Stage Initiated: Enterprise Policy as Code (EPAC) Hydration Kit
+2026-02-22_06:30:40 -- Stage Initiated: Beginning Preliminary Tests
+2026-02-22_06:30:40 -- Summary of Beginning Preliminary Tests
+2026-02-22_06:30:40 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging 13.107.42.14
+2026-02-22_06:30:42 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_06:30:42 -- Internet Connectivity Validation Test: Passed 13.107.42.14 ping test successful
+2026-02-22_06:30:42 -- Test Result Data: internetConnection -- Passed
+2026-02-22_06:30:42 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging www.github.com
+2026-02-22_06:30:45 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_06:30:45 -- Internet Connectivity Validation Test: Passed www.github.com ping test successful
+2026-02-22_06:30:45 -- Test Result Data: githubConnection -- Passed
+2026-02-22_06:30:45 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging management.azure.com
+2026-02-22_06:30:47 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_06:30:47 -- Internet Connectivity Validation Test: Passed management.azure.com ping test successful
+2026-02-22_06:30:47 -- Test Result Data: azureManagement -- Passed
+2026-02-22_06:30:47 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging login.microsoftonline.com
+2026-02-22_06:30:49 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_06:30:49 -- Internet Connectivity Validation Test: Passed login.microsoftonline.com ping test successful
+2026-02-22_06:30:49 -- Test Result Data: azureAuthentication -- Passed
+2026-02-22_06:30:49 -- Stage Initiated: Summarizing Test Results
+2026-02-22_06:30:49 -- Summary: internetConnection ------------------------------------------------------------------------------------------------------------------------------------------------------------ Passed
+2026-02-22_06:30:49 -- Summary: githubConnection -------------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_06:30:49 -- Summary: azureManagement --------------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_06:30:49 -- Summary: azureAuthentication ----------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_06:30:49 -- Summary: gitInstall -------------------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_06:30:59 -- Stage Initiated: Beginning Data Gathering
+2026-02-22_06:32:47 -- Overwriting Answer File at /Users/erlend.rushfeldt/Documents/GitHub/EPAC-Demos/Output/HydrationAnswer/AnswerFile.json
+2026-02-22_06:32:47 -- Stage Initiated: Enterprise Policy as Code (EPAC) Hydration Kit
+2026-02-22_06:32:57 -- Stage Initiated: Beginning Preliminary Tests
+2026-02-22_06:32:57 -- Summary of Beginning Preliminary Tests
+2026-02-22_06:32:57 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging 13.107.42.14
+2026-02-22_06:32:59 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_06:32:59 -- Internet Connectivity Validation Test: Passed 13.107.42.14 ping test successful
+2026-02-22_06:32:59 -- Test Result Data: internetConnection -- Passed
+2026-02-22_06:32:59 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging www.github.com
+2026-02-22_06:33:02 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_06:33:02 -- Internet Connectivity Validation Test: Passed www.github.com ping test successful
+2026-02-22_06:33:02 -- Test Result Data: githubConnection -- Passed
+2026-02-22_06:33:02 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging management.azure.com
+2026-02-22_06:33:04 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_06:33:04 -- Internet Connectivity Validation Test: Passed management.azure.com ping test successful
+2026-02-22_06:33:04 -- Test Result Data: azureManagement -- Passed
+2026-02-22_06:33:04 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging login.microsoftonline.com
+2026-02-22_06:33:06 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_06:33:06 -- Internet Connectivity Validation Test: Passed login.microsoftonline.com ping test successful
+2026-02-22_06:33:06 -- Test Result Data: azureAuthentication -- Passed
+2026-02-22_06:33:06 -- Stage Initiated: Summarizing Test Results
+2026-02-22_06:33:06 -- Summary: internetConnection ------------------------------------------------------------------------------------------------------------------------------------------------------------ Passed
+2026-02-22_06:33:06 -- Summary: githubConnection -------------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_06:33:06 -- Summary: azureManagement --------------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_06:33:06 -- Summary: azureAuthentication ----------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_06:33:06 -- Summary: gitInstall -------------------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_06:33:16 -- Stage Initiated: Beginning Data Gathering
+2026-02-22_06:34:36 -- Overwriting Answer File at /Users/erlend.rushfeldt/Documents/GitHub/EPAC-Demos/Output/HydrationAnswer/AnswerFile.json
+2026-02-22_06:34:36 -- Stage Initiated: Enterprise Policy as Code (EPAC) Hydration Kit
+2026-02-22_06:34:46 -- Stage Initiated: Beginning Preliminary Tests
+2026-02-22_06:34:46 -- Summary of Beginning Preliminary Tests
+2026-02-22_06:34:46 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging 13.107.42.14
+2026-02-22_06:34:48 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_06:34:48 -- Internet Connectivity Validation Test: Passed 13.107.42.14 ping test successful
+2026-02-22_06:34:48 -- Test Result Data: internetConnection -- Passed
+2026-02-22_06:34:48 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging www.github.com
+2026-02-22_06:34:50 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_06:34:50 -- Internet Connectivity Validation Test: Passed www.github.com ping test successful
+2026-02-22_06:34:50 -- Test Result Data: githubConnection -- Passed
+2026-02-22_06:34:51 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging management.azure.com
+2026-02-22_06:34:53 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_06:34:53 -- Internet Connectivity Validation Test: Passed management.azure.com ping test successful
+2026-02-22_06:34:53 -- Test Result Data: azureManagement -- Passed
+2026-02-22_06:34:53 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging login.microsoftonline.com
+2026-02-22_06:34:55 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_06:34:55 -- Internet Connectivity Validation Test: Passed login.microsoftonline.com ping test successful
+2026-02-22_06:34:55 -- Test Result Data: azureAuthentication -- Passed
+2026-02-22_06:34:55 -- Stage Initiated: Summarizing Test Results
+2026-02-22_06:34:55 -- Summary: internetConnection ------------------------------------------------------------------------------------------------------------------------------------------------------------ Passed
+2026-02-22_06:34:55 -- Summary: githubConnection -------------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_06:34:55 -- Summary: azureManagement --------------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_06:34:55 -- Summary: azureAuthentication ----------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_06:34:55 -- Summary: gitInstall -------------------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_06:35:05 -- Stage Initiated: Beginning Data Gathering
+2026-02-22_08:01:36 -- Overwriting Answer File at /Users/erlend.rushfeldt/Documents/GitHub/EPAC-Demos/Output/HydrationAnswer/AnswerFile.json
+2026-02-22_08:01:36 -- Stage Initiated: Enterprise Policy as Code (EPAC) Hydration Kit
+2026-02-22_08:01:46 -- Stage Initiated: Beginning Preliminary Tests
+2026-02-22_08:01:46 -- Summary of Beginning Preliminary Tests
+2026-02-22_08:01:46 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging 13.107.42.14
+2026-02-22_08:01:48 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_08:01:48 -- Internet Connectivity Validation Test: Passed 13.107.42.14 ping test successful
+2026-02-22_08:01:48 -- Test Result Data: internetConnection -- Passed
+2026-02-22_08:01:48 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging www.github.com
+2026-02-22_08:01:50 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_08:01:50 -- Internet Connectivity Validation Test: Passed www.github.com ping test successful
+2026-02-22_08:01:50 -- Test Result Data: githubConnection -- Passed
+2026-02-22_08:01:50 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging management.azure.com
+2026-02-22_08:01:52 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_08:01:52 -- Internet Connectivity Validation Test: Passed management.azure.com ping test successful
+2026-02-22_08:01:52 -- Test Result Data: azureManagement -- Passed
+2026-02-22_08:01:52 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging login.microsoftonline.com
+2026-02-22_08:01:54 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_08:01:54 -- Internet Connectivity Validation Test: Passed login.microsoftonline.com ping test successful
+2026-02-22_08:01:54 -- Test Result Data: azureAuthentication -- Passed
+2026-02-22_08:01:54 -- Stage Initiated: Summarizing Test Results
+2026-02-22_08:01:54 -- Summary: internetConnection ------------------------------------------------------------------------------------------------------------------------------------------------------------ Passed
+2026-02-22_08:01:54 -- Summary: githubConnection -------------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_08:01:55 -- Summary: azureManagement --------------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_08:01:55 -- Summary: azureAuthentication ----------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_08:01:55 -- Summary: gitInstall -------------------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_08:02:05 -- Stage Initiated: Beginning Data Gathering
+2026-02-22_08:10:54 -- Overwriting Answer File at /Users/erlend.rushfeldt/Documents/GitHub/EPAC-Demos/Output/HydrationAnswer/AnswerFile.json
+2026-02-22_08:10:54 -- Stage Initiated: Enterprise Policy as Code (EPAC) Hydration Kit
+2026-02-22_08:11:04 -- Stage Initiated: Beginning Preliminary Tests
+2026-02-22_08:11:04 -- Summary of Beginning Preliminary Tests
+2026-02-22_08:11:04 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging 13.107.42.14
+2026-02-22_08:11:06 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_08:11:06 -- Internet Connectivity Validation Test: Passed 13.107.42.14 ping test successful
+2026-02-22_08:11:06 -- Test Result Data: internetConnection -- Passed
+2026-02-22_08:11:06 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging www.github.com
+2026-02-22_08:11:09 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_08:11:09 -- Internet Connectivity Validation Test: Passed www.github.com ping test successful
+2026-02-22_08:11:09 -- Test Result Data: githubConnection -- Passed
+2026-02-22_08:11:09 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging management.azure.com
+2026-02-22_08:11:11 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_08:11:11 -- Internet Connectivity Validation Test: Passed management.azure.com ping test successful
+2026-02-22_08:11:11 -- Test Result Data: azureManagement -- Passed
+2026-02-22_08:11:11 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging login.microsoftonline.com
+2026-02-22_08:11:13 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_08:11:13 -- Internet Connectivity Validation Test: Passed login.microsoftonline.com ping test successful
+2026-02-22_08:11:13 -- Test Result Data: azureAuthentication -- Passed
+2026-02-22_08:11:13 -- Stage Initiated: Summarizing Test Results
+2026-02-22_08:11:13 -- Summary: internetConnection ------------------------------------------------------------------------------------------------------------------------------------------------------------ Passed
+2026-02-22_08:11:13 -- Summary: githubConnection -------------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_08:11:13 -- Summary: azureManagement --------------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_08:11:13 -- Summary: azureAuthentication ----------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_08:11:13 -- Summary: gitInstall -------------------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_08:11:23 -- Stage Initiated: Beginning Data Gathering
+2026-02-22_08:17:58 -- Overwriting Answer File at /Users/erlend.rushfeldt/Documents/GitHub/EPAC-Demos/Output/HydrationAnswer/AnswerFile.json
+2026-02-22_08:17:58 -- Stage Initiated: Enterprise Policy as Code (EPAC) Hydration Kit
+2026-02-22_08:18:08 -- Stage Initiated: Beginning Preliminary Tests
+2026-02-22_08:18:08 -- Summary of Beginning Preliminary Tests
+2026-02-22_08:18:08 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging 13.107.42.14
+2026-02-22_08:18:10 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_08:18:10 -- Internet Connectivity Validation Test: Passed 13.107.42.14 ping test successful
+2026-02-22_08:18:10 -- Test Result Data: internetConnection -- Passed
+2026-02-22_08:18:10 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging www.github.com
+2026-02-22_08:18:12 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_08:18:12 -- Internet Connectivity Validation Test: Passed www.github.com ping test successful
+2026-02-22_08:18:12 -- Test Result Data: githubConnection -- Passed
+2026-02-22_08:18:12 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging management.azure.com
+2026-02-22_08:18:14 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_08:18:14 -- Internet Connectivity Validation Test: Passed management.azure.com ping test successful
+2026-02-22_08:18:14 -- Test Result Data: azureManagement -- Passed
+2026-02-22_08:18:14 -- Beginning Test Internet Connectivity Validation Test: This will test connectivity to the internet by pinging login.microsoftonline.com
+2026-02-22_08:18:17 -- Test Result Data: Internet Connectivity Validation Test -- EvaluationReturn: True
+2026-02-22_08:18:17 -- Internet Connectivity Validation Test: Passed login.microsoftonline.com ping test successful
+2026-02-22_08:18:17 -- Test Result Data: azureAuthentication -- Passed
+2026-02-22_08:18:17 -- Stage Initiated: Summarizing Test Results
+2026-02-22_08:18:17 -- Summary: internetConnection ------------------------------------------------------------------------------------------------------------------------------------------------------------ Passed
+2026-02-22_08:18:17 -- Summary: githubConnection -------------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_08:18:17 -- Summary: azureManagement --------------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_08:18:17 -- Summary: azureAuthentication ----------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_08:18:17 -- Summary: gitInstall -------------------------------------------------------------------------------------------------------------------------------------------------------------------- Passed
+2026-02-22_08:18:27 -- Stage Initiated: Beginning Data Gathering

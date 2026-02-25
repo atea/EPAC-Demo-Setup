@@ -1,0 +1,35 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/enterprise-azure-policy-as-code/main/Schemas/global-settings-schema.json",
+    "pacOwnerId": "f7a3b2c1-4d5e-6f78-9a0b-c1d2e3f4a5b6",
+    "pacEnvironments": [
+        {
+            "pacSelector": "epac-dev",
+            "cloud": "AzureCloud",
+            "tenantId": "0d8b78b5-9694-4960-bafb-73cdca11dfde",
+            "deploymentRootScope": "/providers/Microsoft.Management/managementGroups/EPAC-Fabrikam",
+            "desiredState": {
+                "strategy": "ownedOnly",
+                "keepDfcSecurityAssignments": true,
+                "doNotDisableDeprecatedPolicies": false
+            },
+            "skipResourceValidationForExemptions": false,
+            "managedIdentityLocation": "norwayeast"
+        },
+        {
+            "pacSelector": "tenant",
+            "cloud": "AzureCloud",
+            "tenantId": "0d8b78b5-9694-4960-bafb-73cdca11dfde",
+            "deploymentRootScope": "/providers/Microsoft.Management/managementGroups/Fabrikam",
+            "desiredState": {
+                "strategy": "ownedOnly",
+                "keepDfcSecurityAssignments": true,
+                "doNotDisableDeprecatedPolicies": false
+            },
+            "skipResourceValidationForExemptions": false,
+            "managedIdentityLocation": "norwayeast",
+            "globalNotScopes": [
+                "/providers/Microsoft.Management/managementGroups/EPAC-Fabrikam"
+            ]
+        }
+    ]
+}
