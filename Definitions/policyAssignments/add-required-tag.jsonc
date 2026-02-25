@@ -1,0 +1,25 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/enterprise-azure-policy-as-code/main/Schemas/policy-assignment-schema.json",
+    "nodeName": "/Loc/",
+    "assignment": {
+        "name": "rg-add-required-tag",
+        "displayName": "Add Required Tag",
+        "description": "Ensures that a specified tag is added to all resource groups."
+    },
+    "definitionEntry": {
+        "policyId": "7ce92201-8036-4d55-938e-0dce0a5bc475",
+        "displayName": "Require Tag on Resource Group with dynamic notScope"
+    },
+    "parameters": {
+        "tagName" : "Owner",
+        "effect" : "Audit"
+    },
+    "scope": {
+        "epac-dev": [
+            "/providers/Microsoft.Management/managementGroups/EPAC-Fabrikam"
+        ],
+        "tenant": [
+            "/providers/Microsoft.Management/managementGroups/Fabrikam"
+        ]
+    }
+}
