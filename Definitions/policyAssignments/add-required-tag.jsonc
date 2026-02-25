@@ -12,7 +12,7 @@
     },
     "parameters": {
         "tagName" : "Owner",
-        "effect" : "Audit"
+        "effect" : "Deny"
     },
     "scope": {
         "epac-dev": [
